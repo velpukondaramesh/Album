@@ -1,6 +1,7 @@
 <?php 
 $title = 'My albums';
 $this->headTitle($title);
+error_reporting ( E_ALL & ~ E_DEPRECATED & ~ E_USER_DEPRECATED & ~ E_STRICT );
 ?>
 <h1><?php echo $this->escapeHtml($title); ?></h1>
 <p><a href="<?php echo $this->url('album', array( 

@@ -8,7 +8,9 @@
     ],
     "homepage": "http://framework.zend.com/",
     "require": {
-        "php": ">=5.3.3",
-        "zendframework/zendframework": "dev-master"
+        "php": ">=5.5",
+        "zendframework/zendframework": "~2.5",
+        "phpoffice/phpexcel": "dev-develop"
     }
 }
+
